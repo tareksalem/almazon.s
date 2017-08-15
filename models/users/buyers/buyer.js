@@ -1,6 +1,6 @@
 var mongoose = require("mongoose");
 var mongooseDelete = require("mongoose-delete");
-mongoose.connect("mongodb://localhost/store3");
+mongoose.connect("mongodb://almazon:tareksalem/1@almazon-shard-00-00-oiut1.mongodb.net:27017,almazon-shard-00-01-oiut1.mongodb.net:27017,almazon-shard-00-02-oiut1.mongodb.net:27017/almazon?ssl=true&replicaSet=almazon-shard-0&authSource=admin");
 var bcrypt = require("bcrypt-nodejs");
 var Schema = mongoose.Schema;
 
